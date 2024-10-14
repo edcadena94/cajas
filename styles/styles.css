@@ -1,0 +1,20 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: #4a88f4;
+    color: #fff;
+    font size: 30px
+;
+}
+/*posicionamiento relativo - posiciona la caja en caualqiier lugar dejando su espacio y nadie puede ocupar ese espacio
+posicionamiento absoluto - si utilizamos posicionamiento absoluto el componente se va  a despalsar pero su lugar ocupa por otro componente */
+
+
+.caja{
+/*position: relative;*/
+position: fixed;
+top:0px;
+bottom:0 ;
+left: 200px; ;
+right: 0;
+}
